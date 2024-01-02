@@ -1,5 +1,9 @@
 # Interactive Housing Sales Analytics Dashboard
 
+## Screenshot of Dashboard
+
+<img width="1470" alt="image" src="https://github.com/gaurichaudhari9/house-sales-viz/assets/25304556/9018cd57-af9d-4db9-9220-e883b5abac97">
+
 ## Overview
 
 This dashboard visualizes and analyzes housing sales data for King County, Washington. The purpose is to understand trends in housing prices and identify relationships between price and other attributes like number of bedrooms/bathrooms, square footage, view, condition, etc. 
@@ -61,4 +65,4 @@ The dashboard is interactive and allows slicing data in different ways to uncove
 
 ## Dashboard
 
-The dashboard can be viewed here: [Link to dashboard]
+The dashboard can be viewed here: https://public.tableau.com/app/profile/gauri.chaudhari/viz/KingCountyHouseSales_17041554469630/KingCountyHouseSales
