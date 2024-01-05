@@ -6,7 +6,7 @@
 
 ## Overview
 
-This dashboard visualizes and analyzes housing sales data for King County, Washington. The purpose is to understand trends in housing prices and identify relationships between price and other attributes like number of bedrooms/bathrooms, square footage, view, condition, etc. 
+This dashboard visualizes and analyzes housing sales data for King County, Washington. The dashboard features a calendar widget, line chart, map, histograms, and a heatmap, providing a user-friendly interface to explore the dataset. The purpose is to understand trends in housing prices and identify relationships between price and other attributes like number of bedrooms/bathrooms, square footage, view, condition, etc. 
 
 The dashboard allows users to filter the data by month and day to see how prices change over time. Additional filters for year built, square feet living area, and square feet lot area allow further slicing of the data.
 
@@ -33,8 +33,13 @@ The data comes from a dataset of house sales transactions in King County between
 
 The data was loaded into Tableau and the following transformations applied:
 
-- Changed date format from string to date
-- Changed square feet columns from string to number format
+- Changed date format from text to date
+- Changed the number format of square feet living and square ft lot to not have decimals and to include the thousands marker.
+
+## Filters - To the left of the dashboard
+
+- **Calendar Widget:** This main filter allows users to select a specific month or day, influencing the visuals on the right.
+- **Additional Filters:** Three sliders filter data based on the year built, square foot living, and square foot lot.
 
 ## Analysis
 
